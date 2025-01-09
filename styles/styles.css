@@ -1,3 +1,54 @@
 /* Imports */
 @import url(normalize.css);
 @import url(fonts.css);
+
+/* General */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #1f2937;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.header__logo:hover {
+  cursor: pointer;
+}
+
+/* Nav */
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+.nav__item {
+  font-size: 18px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
